@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="168.350072">
+<testcase classname="DemoWebshop Website" name="To register in DemoWebshop" time="24.621005">
+<system-out><![CDATA[Given I launched DemoWebshop website........................................passed
+And I click on register button..............................................passed
+When I enter "user1" "demo" "demo@gmai.com" "demo1234" "demo1234"...........passed
+And I Clicks Submit.........................................................passed
+Then Registration successful message will be displayed......................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To change quantity of item in cart" time="22.792284">
+<system-out><![CDATA[Given I logged in to  website...............................................passed
+When I navigate to cart.....................................................passed
+And I change the quantity of the item.......................................passed
+And I click on update cart..................................................passed
+Then I receive feedback that cart is updated................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To contact the support team" time="40.844342">
+<system-out><![CDATA[Given I logged into website.................................................passed
+When I navigate to contactus page...........................................passed
+Then I enter query..........................................................passed
+And I click submit..........................................................passed
+Then I will receive feedback stating query is successfully sent.............passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To estimate shipping charge of item" time="80.092441">
+<system-out><![CDATA[Given I logged in to the website............................................passed
+When I navigate to shopping cart............................................passed
+And I enter the city and pincode............................................passed
+And I click on submit button................................................passed
+Then Shipping charge will be displayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

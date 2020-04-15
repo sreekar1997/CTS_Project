@@ -1,0 +1,355 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "To register in DemoWebshop",
+        "description": "",
+        "id": "demowebshop-website;to-register-in-demowebshop;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19681931300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launched DemoWebshop website",
+            "match": {
+              "location": "Register.i_launched_DemoWebshop_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1029727100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on register button",
+            "match": {
+              "location": "Register.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 926820600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"user1\" \"demo\" \"demo@gmai.com\" \"demo1234\" \"demo1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 9
+                },
+                {
+                  "val": "demo",
+                  "offset": 17
+                },
+                {
+                  "val": "demo@gmai.com",
+                  "offset": 24
+                },
+                {
+                  "val": "demo1234",
+                  "offset": 40
+                },
+                {
+                  "val": "demo1234",
+                  "offset": 51
+                }
+              ],
+              "location": "Register.i_enter(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2451080600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Clicks Submit",
+            "match": {
+              "location": "Register.i_Clicks_Submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531445000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Registration successful message will be displayed",
+            "match": {
+              "location": "Register.registration_successful_message_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_Register"
+          },
+          {
+            "line": 1,
+            "name": "@DemoWebshop"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To change quantity of item in cart",
+        "description": "",
+        "id": "demowebshop-website;to-change-quantity-of-item-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19744131900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I logged in to  website",
+            "match": {
+              "location": "ChangeQuantity.i_logged_in_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1118873000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to cart",
+            "match": {
+              "location": "ChangeQuantity.i_navigate_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 443540500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I change the quantity of the item",
+            "match": {
+              "location": "ChangeQuantity.i_change_the_quantity_of_the_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1076066900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on update cart",
+            "match": {
+              "location": "ChangeQuantity.i_click_on_update_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 409671800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I receive feedback that cart is updated",
+            "match": {
+              "location": "ChangeQuantity.i_receive_feedback_that_cart_is_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@tc_02_Change_quantity"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "To contact the support team",
+        "description": "",
+        "id": "demowebshop-website;to-contact-the-support-team",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35566297600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I logged into website",
+            "match": {
+              "location": "Contact.i_logged_into_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2302106700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I navigate to contactus page",
+            "match": {
+              "location": "Contact.i_navigate_to_contactus_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 642405000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter query",
+            "match": {
+              "location": "Contact.i_enter_query()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1435021800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click submit",
+            "match": {
+              "location": "Contact.i_click_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 898510700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I will receive feedback stating query is successfully sent",
+            "match": {
+              "location": "Contact.i_will_receive_feedback_stating_query_is_successfully_sent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@tc_03_contactus"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "To estimate shipping charge of item",
+        "description": "",
+        "id": "demowebshop-website;to-estimate-shipping-charge-of-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76713319300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I logged in to the website",
+            "match": {
+              "location": "EstimateShipping.i_logged_in_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1579157300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I navigate to shopping cart",
+            "match": {
+              "location": "EstimateShipping.i_navigate_to_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258498500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter the city and pincode",
+            "match": {
+              "location": "EstimateShipping.i_enter_the_country_and_pincode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 973808600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on submit button",
+            "match": {
+              "location": "EstimateShipping.i_click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567657500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Shipping charge will be displayed",
+            "match": {
+              "location": "EstimateShipping.shipping_charge_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@tc_04_Estimate_Shipping"
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebshop Website",
+    "description": "",
+    "id": "demowebshop-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/3lok/Desktop/selenium/DemoWebshop2/src/test/resources/features/s.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@DemoWebshop"
+      }
+    ]
+  }
+]
