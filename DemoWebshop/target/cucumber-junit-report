@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="739.700684">
+<testcase classname="DemoWebshop Website" name="To register in DemoWebshop" time="52.866716">
+<system-out><![CDATA[Given I launched DemoWebshop website........................................passed
+And I click on register button..............................................passed
+When I enter "user1" "demo" "sreekar@gmai.com" "demo1234" "demo1234"........passed
+And I Clicks Submit.........................................................passed
+Then Registration successful message will be displayed......................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To change quantity of item in cart" time="50.27167">
+<system-out><![CDATA[Given I logged in to  website...............................................passed
+When I navigate to cart.....................................................passed
+And I change the quantity of the item.......................................passed
+And I click on update cart..................................................passed
+Then I receive feedback that cart is updated................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To contact the support team" time="48.832735">
+<system-out><![CDATA[Given I logged into website.................................................passed
+When I navigate to contactus page...........................................passed
+Then I enter query..........................................................passed
+And I click submit..........................................................passed
+Then I will receive feedback stating query is successfully sent.............passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To estimate shipping charge of item" time="98.772687">
+<system-out><![CDATA[Given I logged in to the website............................................passed
+When I navigate to shopping cart............................................passed
+And I enter the city and pincode............................................passed
+And I click on submit button................................................passed
+Then Shipping charge will be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Taking screenshot of order details in myorders" time="56.388008">
+<system-out><![CDATA[Given I logged into demowebshop website.....................................passed
+When I navigate to My orders page...........................................passed
+And I click on order details................................................passed
+Then order details will be displayed and captured...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Changing city and pincode in shipping address" time="40.827585">
+<system-out><![CDATA[Given I logged in to DemoWebshop website....................................passed
+When I navigate to My_account page..........................................passed
+And I click edit address....................................................passed
+Then I enter the city pincode...............................................passed
+And I click submit button...................................................passed
+Then updated address is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="To review an item in demoshop website" time="61.600833">
+<system-out><![CDATA[Given I logged in to the demoweb shop website...............................passed
+When I click on an item from the list.......................................passed
+And I click on write a review option........................................passed
+Then I enter the message....................................................passed
+And I click on submit.......................................................passed
+Then I will eceive feedback stating review is succesfully added message.....passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Changing password of logged in profile" time="55.961967">
+<system-out><![CDATA[Given I logged in to website................................................passed
+When I navigate to My account page..........................................passed
+And I click change password.................................................passed
+Then I enter "demo123" "demo123" "demo123"..................................passed
+And I click on the submit...................................................passed
+Then Password succesfully changed message is displayed......................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Validating the login functionality" time="56.931246">
+<system-out><![CDATA[Given I want to launch the website..........................................passed
+When website is launched....................................................passed
+Then Click on the login button..............................................passed
+Then login page is opened...................................................passed
+Then I enter "sk.munisha54@gmail.com" and "salmamuni54".....................passed
+And The login button is clicked.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Validating the login functionality 2" time="83.365571">
+<system-out><![CDATA[Given I want to launch the website..........................................passed
+When website is launched....................................................passed
+Then Click on the login button..............................................passed
+Then login page is opened...................................................passed
+Then I enter "saidemo@gmai.com" and "democts"...............................passed
+And The login button is clicked.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Searching for a product" time="20.752905">
+<system-out><![CDATA[Given I want to launch the searchpage.......................................passed
+When Search page is opened..................................................passed
+Then I enter the desired "fiction EX".......................................passed
+And I click the search button...............................................passed
+And The product page is opened..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Adding product to  cart" time="31.788993">
+<system-out><![CDATA[Given I want to launch categories page......................................passed
+When categories page is launched............................................passed
+Then I click on the books...................................................passed
+Then I click on desired product to add in to cart...........................passed
+And I click on the shopping cart to view the product details................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Removing product from cart" time="43.908021">
+<system-out><![CDATA[Given I launch the homepage.................................................passed
+When page is launched and  I click on the books.............................passed
+Then I add a product in the cart and click on the shopping cart.............passed
+Then cart is opened and I select an item to delete..........................passed
+And I click on the update shopping cart.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="Newsletter subscribption" time="17.811668">
+<system-out><![CDATA[Given I launch the homepage1................................................passed
+When I enter the "sk.munisha54@gmail.com" in the newsletter section of homepage.passed
+Then I click subscribe option...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebshop Website" name="logging out" time="19.620079">
+<system-out><![CDATA[Given I launch the website homepage.........................................passed
+When page will open and I login with "sk.munisha54@gmail.com" and "salmamuni54".passed
+Then login page will be opened and I click on logout button.................passed
+]]></system-out>
+</testcase>
+</testsuite>
